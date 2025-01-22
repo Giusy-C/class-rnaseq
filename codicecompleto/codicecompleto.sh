@@ -113,6 +113,7 @@ resdata <- as_tibble(resOrdered)
 resdata$gene <- rownames(resOrdered)
 write_tsv(resdata, "analysis_results.tsv")
 
+#scrivere resdata sulla console per visualizzare i geni differenzialmente espressi oppure aprire tabella resdata
 
 ############################################
 ## CLUSTERING ##############################
